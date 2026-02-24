@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files (machine-specific)
+.claude/
+
+# Playwright output
+test-results/
+playwright-report/
+
+# Archive (kept locally as reference, not part of the repo)
+archive/
